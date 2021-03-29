@@ -30,6 +30,7 @@ public class ExtentReportDemo {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com");
 		System.out.println(driver.getTitle());
+		System.out.println("I git it in github");
 		driver.close();
 		test.fail("Result doesn't match");
 		extent.flush();
